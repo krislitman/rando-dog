@@ -29,6 +29,3 @@ bundle</li>
   <li>Launchy</li>
   <li>Faraday</li>
   <li>HTTParty<li>
-  
-
-
