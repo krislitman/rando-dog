@@ -28,4 +28,6 @@ bundle</li>
   <li>Orderly</li>
   <li>Launchy</li>
   <li>Faraday</li>
-  <li>HTTParty
+  <li>HTTParty</li>
+  <li>Webmock</li>
+  <li>VCR
