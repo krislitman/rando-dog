@@ -4,7 +4,7 @@
 
 ## Click a button, get a dog.
 <ul>
-  <li>I wanted to get practice consuming the Giphy API & create a simple application where you click a button...get a **dog gif** </li>
+  <li>I wanted to get practice consuming the Giphy API & create a simple application where you click a button...get a <strong>dog gif</strong></li>
   </ul>
   
 
