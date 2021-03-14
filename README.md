@@ -27,6 +27,7 @@ bundle</li>
   <li>Capybara</li>
   <li>Orderly</li>
   <li>Launchy</li>
+  <li>SimpleCov</li>
   <li>Faraday</li>
   <li>HTTParty</li>
   <li>Webmock</li>
