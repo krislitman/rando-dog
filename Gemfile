@@ -6,6 +6,7 @@ ruby '2.5.3'
 # API
 gem 'faraday'
 gem 'httparty'
+gem 'figaro'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.5'
