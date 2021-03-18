@@ -1,14 +1,14 @@
 class DoggoService 
   def self.random(json_response)
-    expected = consume('/random', 'bordercollie')
-    require 'pry'; binding.pry
+    expected = consume('random', 'bordercollie')
+    Gif.new(expected)
   end
 
   private
 
   def self.consume(url, tag = nil)
     response = Faraday.get(
-      "api.giphy.com/v1/gifs/",
+      "https://api.giphy.com/v1/gifs/#{url}",
       api_key: Figaro.env.api_key,
       tag: "#{tag}",
       rating: "g"
