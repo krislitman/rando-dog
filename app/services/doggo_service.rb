@@ -1,7 +1,7 @@
 class DoggoService 
   def self.random(json_response)
-    expected = consume('random', 'bordercollie')
-    Gif.new(expected)
+    expected = consume('random')
+    gif = Gif.new(expected)
   end
 
   private
