@@ -2,11 +2,14 @@ require "rails_helper"
 
 RSpec.describe "Giphy API" do
   scenario "Api can be consumed" do
-    json_response = File.read('spec/fixtures/random_dog_giphy.json')
-    stub_request(:get, 
-    "api.giphy.com/v1/gifs/random?api_key=QohTU31I9NDv6lAAsU5wWOjreciGjMwQ&tag=dog&rating=g").
-      to_return(status: 200, body: json_response)
+    VCR.use_cassette('Consume Random Dog API') do
 
-    visit '/'
+      doggo = DoggoService.random
+
+      expect(doggo.type).to eq('gif')
+      expect(doggo.emb_url).to eq("https://giphy.com/embed/4VY8s5wDEx7SPowvZ3")
+      expect(doggo.title).to eq("Animated GIF")
+      expect(doggo.images.length).to eq 23
+    end
   end
 end
