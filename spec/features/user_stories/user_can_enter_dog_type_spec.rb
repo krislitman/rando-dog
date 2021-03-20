@@ -18,6 +18,7 @@ RSpec.describe "As a user on the home page" do
     click_button "Get a Dog Gif"
 
     expect(page).to have_content('Here is your random Border Collie Gif!')
+    expect(page).to have_link "Find another Gif"
     end
   end
 end
