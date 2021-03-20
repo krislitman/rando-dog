@@ -1,0 +1,9 @@
+<%= form_with url: '/', local: true, method: :get do |f|%>
+
+<%= f.label 'What dog breed?' %><br>
+<%= f.text_field :breed, placeholder: 'Enter Here' %><br><br>
+
+<%= f.submit "Get a Dog Gif" %>
+
+<% end %>
+
