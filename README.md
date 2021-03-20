@@ -17,7 +17,8 @@
 bundle</li>
 <li>rails db:create</li>
 <li>You will also need to install Figaro with 
- bundle exec figaro install. And add your giphy api_key to the application.yml local file</li>
+ bundle exec figaro install.</li>
+<li> Add your giphy api_key to the application.yml local file</li>
 <li>Run the test suite with bundle exec rspec.</li>
 <li>Run your development server with rails s to see the app in action!</li>
 </ul>
