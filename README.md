@@ -16,8 +16,8 @@
 <li>From the command line, install gems and set up your DB:
 bundle</li>
 <li>rails db:create</li>
-<li>You will also need to install Figaro:<li>
-  <li>gem install figaro. And add your giphy api_key to the application.yml local file</li>
+<li>You will also need to install Figaro:
+ gem install figaro. And add your giphy api_key to the application.yml local file</li>
 <li>Run the test suite with bundle exec rspec.</li>
 <li>Run your development server with rails s to see the app in action!</li>
 </ul>
