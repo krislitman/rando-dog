@@ -7,7 +7,7 @@ RSpec.describe "Giphy API" do
       doggo = DoggoService.random
 
       expect(doggo.type).to eq('gif')
-      expect(doggo.emb_url).to eq("https://giphy.com/embed/4VY8s5wDEx7SPowvZ3")
+      expect(doggo.url).to eq("https://giphy.com/gifs/4VY8s5wDEx7SPowvZ3")
       expect(doggo.title).to eq("Animated GIF")
       expect(doggo.images.length).to eq 23
     end

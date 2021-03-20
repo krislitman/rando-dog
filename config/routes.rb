@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   #home
   get '/', to: "home#index"
+
+  #gif_landing_page
+  resources :gifs
 end
