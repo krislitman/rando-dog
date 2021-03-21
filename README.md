@@ -8,6 +8,9 @@
   
   ![doge](https://media.giphy.com/media/sHytgXD2vlNVC/giphy.gif)
   
+## See the App
+https://rando-dog.herokuapp.com/
+  
 ## How to install
 <ul>
   <li>This project requires Ruby 2.5.3.</li>
