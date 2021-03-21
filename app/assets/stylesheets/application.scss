@@ -14,5 +14,34 @@
  *= require_self
  */
 
-@import "bootstrap-sprockets"
-@import "bootstrap"
+@import "bootstrap";
+
+.nav-item {
+  color: white;
+}
+
+.nav-item:hover {
+  color: purple;
+}
+
+body {
+  background-color: black;
+}
+
+h4 {
+  color: white;
+  font-family: open sans;
+}
+
+h3 {
+  color: white;
+  font-family: open sans;
+}
+
+.find_gif {
+  color: lightblue;
+}
+
+.find_gif:hover {
+  color: rgb(62, 96, 107);
+}

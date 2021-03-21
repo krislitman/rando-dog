@@ -1,9 +1,10 @@
 <%= form_with url: gifs_path, local: true, method: :get do |f|%>
 
-<%= f.label 'Which dog breed?' %><br>
+<br><h4><%= f.label 'Select a dog breed!' %></h4>
 <%= f.select :breed, (dog_list), selected: dog_list.sample %><br><br>
 
-<%= f.submit "Get a Dog Gif" %>
+<%= f.submit "Get a Dog Gif", class: "btn btn-info btn-lg" %>
 
 <% end %>
+<br>
 

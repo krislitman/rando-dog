@@ -1,10 +1,11 @@
 <div class="container">
+<%= render partial: 'shared/nav' %>
   <center>
-    <h3>Here is your random <%= @dog %> Gif!</h3><br>
+    <br><h3>Here is your random <%= @dog %> Gif!</h3><br>
     
     <%= image_tag @gif.image_url %>
     <br><br>
-    <%= link_to "Find another Gif", "/" %>
+    <h4><%= link_to "Find another Gif", "/" , class: 'find_gif' %></h4>
     <br><br>
     <%= render partial: 'email', locals: { gif: @gif.image_url } %>
   </center>
