@@ -6,6 +6,6 @@
     <br><br>
     <%= link_to "Find another Gif", "/" %>
     <br><br>
-    <%= render partial: 'email', locals: { gif: @gif } %>
+    <%= render partial: 'email', locals: { gif: @gif.image_url } %>
   </center>
 </div>
