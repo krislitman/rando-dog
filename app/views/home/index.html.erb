@@ -1,6 +1,6 @@
 <div class="container">
   <center>
-    <h1>Rando Dog</h1><br>
-    <%= render partial: 'dog_form' %>
+    <%= image_tag "rando.png" %><br>
+    <%= render partial: 'dog_form', locals: {dog_list: @dog_list}%>
   </center>
 </div>

@@ -9,4 +9,14 @@ class GifsController < ApplicationController
       redirect_to "/"
     end
   end
+
+  def new
+    GifMailer.new_email(params[:gif], params[:email_address]).deliver_now
+    flash[:notice] = "Your email has been sent to #{params[:email_address]}!"
+    redirect_to "/"
+
+    if params[:email_address].empty?
+      flash[:notice] = 'Please enter a valid email address'
+    end
+  end
 end
