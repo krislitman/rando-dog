@@ -4,7 +4,7 @@
 
 ## Click a button, get a dog.
 <ul>
-  <li>I wanted to get practice consuming the Giphy API & create a simple application where you enter what type of dog you want to see, then click a button...<strong>get a dog gif</strong></li>
+  <li>I wanted to get practice consuming the Giphy and Dog API's to create a simple application where you enter what type of dog you want to see, then click a button...<strong>get a dog gif</strong></li>
   </ul>
   
 ## How to install
