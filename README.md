@@ -1,4 +1,4 @@
-![rando_dog](app/assets/images/rando.png)
+![rando_dog](app/assets/images/rando_small.png)
 
 
 ## Click a button, get a dog.
