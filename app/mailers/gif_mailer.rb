@@ -1,3 +1,9 @@
 class GifMailer < ApplicationMailer
-  default from: "kris.d.litman@gmail.com"
+
+  def new_email(gif)
+    @greeting = "#{gif.title}"
+
+    mail to: "#{params[:sender]}",
+         subject: "New Gif just for you!"
+  end
 end

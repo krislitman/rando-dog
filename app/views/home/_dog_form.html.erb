@@ -1,7 +1,7 @@
 <%= form_with url: gifs_path, local: true, method: :get do |f|%>
 
-<%= f.label 'What dog breed?' %><br>
-<%= f.text_field :breed, placeholder: 'Enter Here' %><br><br>
+<%= f.label 'Which dog breed?' %><br>
+<%= f.select :breed, (dog_list), selected: dog_list.sample %><br><br>
 
 <%= f.submit "Get a Dog Gif" %>
 

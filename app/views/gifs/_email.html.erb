@@ -1,0 +1,8 @@
+<%= form_with url: new_gif_path, local:true, method: :post do |f| %>
+
+  <%= f.label "Email this gif!" %>
+  <%= f.text_field :email_address %>
+
+  <%= f.submit "Send" %>
+
+<% end%>
